@@ -2,14 +2,8 @@
 </script>
 
 <template>
-  <div>
+  <div class="bg-emerald-50 text-emerald-900 min-h-screen">
     <NuxtRouteAnnouncer />
-    <header class="py-4 shadow-lg">
-      <div class="container mx-auto">
-        <h1 class="font-bold">
-          NuxtShip
-        </h1>
-      </div>
-    </header>
+    <AppHeader />
   </div>
 </template>
