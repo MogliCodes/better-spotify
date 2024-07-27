@@ -2,7 +2,7 @@
 </script>
 
 <template>
-  <div class="bg-emerald-50 text-emerald-900 min-h-screen">
+  <div class="bg-neutral-800 text-neutral-50 min-h-screen">
     <NuxtRouteAnnouncer />
     <AppHeader />
     <main>

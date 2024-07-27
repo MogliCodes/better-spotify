@@ -10,7 +10,7 @@ async function signOut() {
 </script>
 
 <template>
-  <header class="bg-emerald-800 text-emerald-100 py-4 shadow-lg">
+  <header class="bg-neutral-900 text-emerald-400 py-4 shadow-lg">
     <div class="container mx-auto flex justify-between items-center">
       <NuxtLink to="/" class="font-bold">
         better.spotify

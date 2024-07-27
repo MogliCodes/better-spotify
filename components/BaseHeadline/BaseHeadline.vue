@@ -13,7 +13,7 @@ const props = defineProps({
 const textClasses = computed(() => {
   return {
     'text-6xl font-bold': props.size === 'xl',
-    'text-xl': props.size === 'lg',
+    'text-xl font-bold': props.size === 'lg',
     'text-lg': props.size === 'md',
     'text-base': props.size === 'sm',
   }
