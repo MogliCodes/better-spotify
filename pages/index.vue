@@ -1,0 +1,15 @@
+<template>
+  <section class="py-40">
+    <BaseContainer class="">
+      <div class="sm:w-1/2 flex flex-col items-start gap-5">
+        <BaseHeadline type="h1">
+          better.spotify
+        </BaseHeadline>
+        <BaseText type="p">
+          A better way to enjoy Spotify. More features. Features the world desperately needed. Discover your music like never before with our custom Spotify client. Enjoy advanced playlist creation, in-depth stats, and personalized music management. Upgrade your listening experience today! No ads, no interruptions. Just music. 🎵
+        </BaseText>
+        <UButton><UIcon class="scale-150" name="ph:spotify-logo" />Login with Spotify</UButton>
+      </div>
+    </BaseContainer>
+  </section>
+</template>
