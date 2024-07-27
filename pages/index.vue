@@ -1,3 +1,13 @@
+<script setup lang="ts">
+const user = useSupabaseUser()
+
+watch(user, () => {
+  if (user.value) {
+    navigateTo('/dashboard')
+  }
+}, { immediate: true })
+</script>
+
 <template>
   <section class="py-40">
     <BaseContainer class="">

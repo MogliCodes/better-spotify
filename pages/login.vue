@@ -12,6 +12,12 @@ async function signInWithOAuth() {
   if (error)
     console.log(error)
 }
+
+watch(user, () => {
+  if (user.value) {
+    navigateTo('/dashboard')
+  }
+}, { immediate: true })
 </script>
 
 <template>
